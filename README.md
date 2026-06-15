@@ -68,3 +68,17 @@ npm install
 
 # Start development server
 npm run dev
+Visit http://localhost:3333
+
+🔗 Deployed Studio
+https://jinjass-studio.sanity.studio
+
+📡 Connected Frontend
+The frontend Next.js site fetches data from this studio via Sanity API.
+
+Frontend repo: jinjass-new
+
+👨‍💻 Developer
+Developed by Herman Software Solutions
+
+herman-software-website.vercel.app
