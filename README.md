@@ -1,9 +1,70 @@
-# Sanity Clean Content Studio
+# Jinja SS CMS - Sanity Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+Sanity Studio for [Jinja Senior Secondary School](https://jinjass.sc.ug) website.
 
-Now you can do the following things:
+---
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the Sanity community](https://www.sanity.io/community/join?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## 🚀 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Sanity Studio v3** | Headless CMS |
+| **TypeScript** | Type safety |
+| **GROQ** | Query language |
+
+---
+
+## 📂 Schema Structure
+
+### Singletons (10)
+
+| Schema | Description |
+|--------|-------------|
+| `siteSettings` | School name, logo, contact info |
+| `homePage` | Hero content, stats |
+| `navigation` | Navbar items, CTA |
+| `unebResults` | UCE/UACE results |
+| `feeStructure` | O'Level & A'Level fees |
+| `aboutContent` | Vision, mission, core values |
+| `admissionsContent` | Requirements, steps, FAQs |
+| `termDates` | Opening/closing dates |
+| `whyChooseUs` | Reasons cards |
+| `contactPage` | Contact info cards |
+| `footerSettings` | Quick links, developer info |
+
+### Documents (9)
+
+| Schema | Description |
+|--------|-------------|
+| `announcement` | Daily announcements |
+| `newsArticle` | News & blog posts |
+| `staff` | Administration team |
+| `galleryImage` | Photo gallery |
+| `sport` | Sports (football, netball, etc.) |
+| `club` | Student clubs |
+| `page` | Generic pages (history, anthem) |
+| `subjectCategory` | Sciences, Arts, Co-Curricular |
+| `facility` | School facilities |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/jiangsalim/jinjass-studio.git
+
+# Navigate to project
+cd jinjass-studio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
