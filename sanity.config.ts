@@ -5,14 +5,9 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'jinjass-studio',
-
+  title: 'Jinja SS CMS',
   projectId: 'xp9bwctj',
   dataset: 'production',
-
   plugins: [structureTool(), visionTool()],
-
-  schema: {
-    types: schemaTypes,
-  },
+  schema: {types: schemaTypes},
 })
