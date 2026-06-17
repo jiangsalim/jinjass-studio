@@ -16,5 +16,6 @@ export const siteSettings = defineType({
     defineField({name: 'address', title: 'Physical Address', type: 'text'}),
     defineField({name: 'socialLinks', title: 'Social Media Links', type: 'array', of: [{type: 'object', fields: [{name: 'platform', title: 'Platform', type: 'string'}, {name: 'url', title: 'URL', type: 'url'}]}]}),
     defineField({name: 'googleMapsEmbed', title: 'Google Maps Embed URL', type: 'url'}),
+    defineField({name: 'whatsappNumber', title: 'WhatsApp Number (with country code, no +)', type: 'string'}),
   ],
 })
