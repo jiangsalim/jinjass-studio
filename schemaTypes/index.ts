@@ -21,6 +21,7 @@ import {club} from './documents/club'
 import {page} from './documents/page'
 import {subjectCategory} from './documents/subjectCategory'
 import {facility} from './documents/facility'
+import {timetable} from './documents/timetable'
 
 export const schemaTypes = [
   blockContent,
@@ -44,4 +45,5 @@ export const schemaTypes = [
   page,
   subjectCategory,
   facility,
+  timetable,
 ]
